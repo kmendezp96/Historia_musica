@@ -102,6 +102,21 @@ h2 {
   min-height:400px;
   margin:18px;
 }
+.imgGrande{
+   width:30%
+    height:30%
+    margin: 15px;
+}
+
+.imgMedia{
+   width:70%
+    height:70%
+    margin: 15px;
+}
+.imgPequena{
+   width:30%
+    height:30%
+}
 @media only screen and (max-width: 835px) {
 .menunav {
 	min-width:200px;
