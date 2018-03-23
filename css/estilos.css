@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Inconsolata', monospace;
+}
+@font-face {
+    font-family: 'Inconsolata', monospace;
+}
+
+body {
+    background-color: #FFEECC;
+    background-image: url(../imagenes/background1.jpg);
+}
+
+a:link {
+	text-decoration: none;
+	color:#333333;
+}
+a:visited {
+	color:#666666;
+	text-shadow: 1px 1px #000000;
+}
+h1 {
+	font-family: Inconsolata;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: bold;
+	color: #AAAAAA;
+	text-shadow: 1px 1px #000000;
+	text-align: center;
+	min-width:200px;
+    max-width:840px;
+}
+h2 {
+	font-family: Inconsolata;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: bold;
+	color: #AAAAAA;
+	text-shadow: 1px 1px #000000;
+  margin: 20px;
+	min-width:200px;
+    max-width:840px;
+}
+
+.menunav {
+	position:relative;
+	left:10px;
+	float:left;
+	margin-bottom: 30px;
+}
+.botonMenu {
+	font-family: Inconsolata;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	color: #FF99CC;
+	text-align: center;
+	width: 150px;
+	background-image: url(../imagenes/button.png);
+	padding:5px 10px 6px 8px;
+	float: left;
+}
+.botonMenu:hover {
+	color:#FFFFFF;
+	text-shadow: 1px 1px #000000;
+	background-image: url(../imagenes/button2.png);
+	cursor:pointer;
+}
+.contenido {
+	position: relative;
+	left: 10px;
+	float:left;
+  color:#000000;
+}
+.texto {
+  color:#FFFFFF;
+	font-family: Inconsolata;
+	font-size: 20px;
+	font-style: normal;
+	text-align: justify;
+	min-width:200px;
+  max-width:512px;
+	margin:25px;
+	float:left;
+}
+
+
+.texto2 {
+  color:#FFFFFF;
+	font-family: Inconsolata;
+	font-size: 20px;
+	font-style: normal;
+	min-width:200px;
+  max-width:1024px;
+	margin:25px;
+}
+.video {
+  height: 386px;
+  width: 512px;
+  min-width:530px;
+  min-height:400px;
+  margin:18px;
+}
+@media only screen and (max-width: 835px) {
+.menunav {
+	min-width:200px;
+    max-width:480px;
+}
+.texto {
+	font-size: 18px;
+}
+}
+
+@media only screen and (max-width: 720px) {
+	body {
+    background-color: #336633;
+}
+h1{
+	font-family: Inconsolata;
+	font-size: 30px;
+	text-align: center;
+	color:#FFFF00;
+}
+.texto {
+	font-size: 20px;
+	color:#FFFFFF;
+	margin:1px;
+}
+}
+
+@media only screen and (max-width: 440px) {
+.texto {
+	font-size: 22px;
+}
+h1 {
+	font-size: 26px;
+}
+}
